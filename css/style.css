@@ -1,14 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("/img/pirate.jpg") ;
     margin: 0;
     padding: 0;
 }
 #txt-input {
-    margin-top: 30px;
-    height: 10vh;
-    border: 2px solid black ;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
     width: 600px;
-    padding: 20px;
+    font-size: large;
+    font-family: inherit;
     opacity: 0.9;
     
 }
@@ -40,11 +47,10 @@ body {
 }
 .na {
     background-color: black;
-    height: 15vh;
     color: brown;
     text-align: center;
     font-size: 3rem;
-    margin-top: 0;
+    padding: 1rem;
 }
 background-img {
     opacity: 0.6;
