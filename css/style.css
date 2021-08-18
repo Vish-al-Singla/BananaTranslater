@@ -1,14 +1,18 @@
+body {
+    background-image: url("/img/pirate.jpg");
+}
 #txt-input {
     margin-top: 30px;
     height: 10vh;
     border: 2px solid black ;
     width: 600px;
-    padding: 30px;
+    padding: 20px;
+    
+    
 }
 
 #btn {
     margin: 20px ;
-    
     margin-left: 0;
     padding: 0.4rem;
     
@@ -18,7 +22,12 @@
     border: 2px solid black;
     height: 10vh;
     margin-top: 20px;
-    padding: 30px;
+    padding: 20px;
     width: 600px;
-    
+    background-color: white;
+}
+.bck {
+    background-color:black;
+    color: white;
+    max-width: 200px;
 }
