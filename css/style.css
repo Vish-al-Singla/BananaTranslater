@@ -1,5 +1,7 @@
 body {
-    background-image: url("/img/pirate.jpg");
+    background-image: url("/img/pirate.jpg") ;
+    margin: 0;
+    padding: 0;
 }
 #txt-input {
     margin-top: 30px;
@@ -7,7 +9,7 @@ body {
     border: 2px solid black ;
     width: 600px;
     padding: 20px;
-    
+    opacity: 0.9;
     
 }
 
@@ -15,7 +17,11 @@ body {
     margin: 20px ;
     margin-left: 0;
     padding: 0.4rem;
-    
+    opacity: 0.7;
+}
+
+#btn:hover{
+    opacity:1.0;
 }
 
 #output {
@@ -25,9 +31,27 @@ body {
     padding: 20px;
     width: 600px;
     background-color: white;
+    opacity: 0.9;
 }
 .bck {
     background-color:black;
     color: white;
     max-width: 200px;
+}
+.na {
+    background-color: black;
+    height: 15vh;
+    color: brown;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0;
+}
+background-img {
+    opacity: 0.6;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    
 }
