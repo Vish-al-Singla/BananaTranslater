@@ -51,10 +51,7 @@ body {
     background-color: white;
     opacity: 0.9;
 }
-.bck {
-    background-color:var(--bg-color);
-    max-width: 200px;
-}
+
 .na {
     background-color: var(--primary);
     text-align: center;
