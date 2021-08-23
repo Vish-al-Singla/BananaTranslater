@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap');
 * {
     box-sizing: border-box;
 }
+:root {
+    --primary : #ffb703;
+    --bg-color:#fff3b0;
+}
 
 body {
-    background-image: url("/img/pirate.jpg") ;
+    font-family: 'Vollkorn', serif;
     margin: 0;
     padding: 0;
 }
@@ -21,11 +26,12 @@ body {
 }
 
 #btn {
-    background-color: grey;
+    background-color: var(--bg-color);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
     font-size: large;
+    cursor: pointer;
 }
 
 #btn:hover{
@@ -45,13 +51,11 @@ body {
     opacity: 0.9;
 }
 .bck {
-    background-color:black;
-    color: white;
+    background-color:var(--bg-color);
     max-width: 200px;
 }
 .na {
-    background-color: black;
-    color: grey;
+    background-color: var(--primary);
     text-align: center;
     font-size: 3rem;
     padding: 1rem;
@@ -62,8 +66,7 @@ footer {
     width: 100%;
     padding: 1rem;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: var(--primary);
 }
 .h {
     font-size: x-large;
