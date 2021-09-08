@@ -42,7 +42,14 @@ body {
 #btn:hover{
     opacity:0.9;
 }
-
+.output {
+    background-color: var(--black);
+    color: white;
+    opacity: 0.7;
+    padding: 0.5rem;
+    width: fit-content;
+    
+}
 #output {
     box-sizing: border-box;
     width: 100%;
